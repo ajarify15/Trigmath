@@ -1,0 +1,51 @@
+{
+  "name": "TrigMaster — Pembelajaran Trigonometri",
+  "short_name": "TrigMaster",
+  "description": "Media Pembelajaran Interaktif Pengenalan Perbandingan Trigonometri untuk SMA/SMK Kelas X — Kurikulum Merdeka",
+  "start_url": "./trigmaster.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#070B1A",
+  "theme_color": "#6366F1",
+  "lang": "id",
+  "dir": "ltr",
+  "categories": ["education"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icon-apple.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Kuis Trigonometri",
+      "short_name": "Kuis",
+      "description": "Langsung ke halaman kuis",
+      "url": "./trigmaster.html#kuis",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Simulasi Interaktif",
+      "short_name": "Simulasi",
+      "description": "Langsung ke simulasi",
+      "url": "./trigmaster.html#sim",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
